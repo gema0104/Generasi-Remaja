@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Karang Taruna GEMA (Generasi Remaja)</title>
+    <meta name="description" content="Website resmi Karang Taruna GEMA (Generasi Remaja). Wadah pemuda untuk berkarya, berinovasi, dan berkontribusi bagi masyarakat.">
+    <meta name="keywords" content="karang taruna, gema, generasi remaja, organisasi pemuda, kegiatan sosial, kepemudaan">
+    <meta name="author" content="Karang Taruna GEMA">
+    
+    <meta property="og:title" content="Karang Taruna GEMA (Generasi Remaja)">
+    <meta property="og:description" content="Wadah pemuda untuk berkarya, berinovasi, dan berkontribusi bagi masyarakat.">
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=0"> <meta property="og:url" content="https://www.website-kt-gema.com"> <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Karang Taruna GEMA (Generasi Remaja)",
+      "url": "https://www.website-kt-gema.com",
+      "logo": "https://www.website-kt-gema.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-812-3456-7890",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ktgema",
+        "https://www.instagram.com/ktgema",
+        "https://www.youtube.com/@ktgema"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Bakti Sosial & Donor Darah",
+      "startDate": "2025-12-15T09:00:00+07:00",
+      "endDate": "2025-12-15T15:00:00+07:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Balai Warga RW 05",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Pemuda Berkarya No. 123",
+          "addressLocality": "Jakarta",
+          "postalCode": "12345",
+          "addressRegion": "DKI Jakarta",
+          "addressCountry": "ID"
+        }
+      },
+      "image": [
+        "https://picsum.photos/1280/720?random=20"
+       ],
+      "description": "Acara bakti sosial tahunan Karang Taruna GEMA, termasuk kegiatan donor darah bekerja sama dengan PMI.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Karang Taruna GEMA",
+        "url": "https://www.website-kt-gema.com"
+      }
+    }
+    </script>
+
+    <style>
+      /*
+      ==================================================================
+      === CUSTOMIZE HERE ===
+      Ubah variabel di bawah ini untuk mengganti tema website dengan mudah.
+      ==================================================================
+      */
+      :root {
+        /* Warna Utama */
+        --color-primary: #0a2540;        /* Biru Tua (Untuk Latar, Teks Judul) */
+        --color-secondary: #ffc400;      /* Kuning Keemasan (Untuk Aksen, Tombol, Link) */
+        
+        /* Warna Netral - Light Mode */
+        --color-bg-light: #f8f9fa;       /* Latar Belakang Cerah */
+        --color-surface-light: #ffffff;  /* Warna Permukaan (Kartu, Header) */
+        --color-text-light: #343a40;     /* Warna Teks Utama */
+        --color-text-muted-light: #6c757d;/* Warna Teks Sekunder */
+        --color-border-light: #dee2e6;   /* Warna Garis Batas */
+        
+        /* Warna Netral - Dark Mode */
+        --color-bg-dark: #121212;
+        --color-surface-dark: #1e1e1e;
+        --color-text-dark: #e0e0e0;
+        --color-text-muted-dark: #a0a0a0;
+        --color-border-dark: #444444;
+
+        /* Tipografi */
+        --font-family-main: 'Poppins', sans-serif;
+
+        /* Properti Lainnya */
+        --border-radius: 8px;
+        --shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        --transition-speed: 0.3s;
+      }
+      /* === END OF CUSTOMIZE SECTION === */
+
+      /* Reset & Aturan Dasar */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+      }
+      
+      body {
+        font-family: var(--font-family-main);
+        background-color: var(--color-bg-light);
+        color: var(--color-text-light);
+        transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+        line-height: 1.7;
+      }
+      
+      /* Aturan untuk Dark Mode */
+      body.dark-mode {
+        --color-bg: var(--color-bg-dark);
+        --color-surface: var(--color-surface-dark);
+        --color-text: var(--color-text-dark);
+        --color-text-muted: var(--color-text-muted-dark);
+        --color-border: var(--color-border-dark);
+        --color-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+        background-color: var(--color-bg);
+        color: var(--color-text);
+      }
+      
+      /* Default (Light Mode) */
+      body {
+        --color-bg: var(--color-bg-light);
+        --color-surface: var(--color-surface-light);
+        --color-text: var(--color-text-light);
+        --color-text-muted: var(--color-text-muted-light);
+        --color-border: var(--color-border-light);
+        --color-shadow: var(--shadow);
+      }
+      
+      /* Aksesibilitas: Kurangi Gerakan */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+
+      /* Utilitas Umum */
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+
+      section {
+        padding: 5rem 0;
+      }
+      
+      .section-title {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      
+      .section-title h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--color-primary);
+        position: relative;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+      }
+      
+      body.dark-mode .section-title h2 {
+        color: var(--color-secondary);
+      }
+      
+      .section-title h2::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 4px;
+        background-color: var(--color-secondary);
+        border-radius: 2px;
+      }
+      
+      .section-title p {
+        max-width: 600px;
+        margin: 0.5rem auto 0;
+        color: var(--color-text-muted);
+      }
+
+      img, svg {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+      }
+      
+      a {
+        color: var(--color-secondary);
+        text-decoration: none;
+        transition: opacity var(--transition-speed) ease;
+      }
+
+      a:hover {
+        opacity: 0.8;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 0.8rem 1.8rem;
+        border-radius: 50px;
+        font-weight: 600;
+        text-align: center;
+        transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+        border: none;
+        cursor: pointer;
+      }
+
+      .btn-primary {
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+      }
+
+      .btn-secondary {
+        background-color: transparent;
+        color: var(--color-surface);
+        border: 2px solid var(--color-surface);
+      }
+      
+      body.dark-mode .btn-secondary {
+         color: var(--color-text);
+         border-color: var(--color-text);
+      }
+      
+      .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        opacity: 1;
+      }
+
+      /* Skip to Content Link */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: var(--color-primary);
+        color: white;
+        padding: 8px;
+        z-index: 10000;
+        transition: top 0.3s;
+      }
+      .skip-link:focus {
+        top: 0;
+      }
+
+      /* Animasi Scroll Reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* === Header & Navigasi === */
+      .main-header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: var(--color-surface);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: background-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+        padding: 1rem 0;
+      }
+      
+      body.dark-mode .main-header {
+         box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+      }
+
+      .main-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: var(--color-primary);
+      }
+      
+      body.dark-mode .logo {
+        color: var(--color-text);
+      }
+
+      .logo-icon {
+        width: 40px;
+        height: 40px;
+      }
+      
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+      }
+
+      .nav-links a {
+        color: var(--color-text);
+        font-weight: 600;
+        padding-bottom: 5px;
+        position: relative;
+      }
+
+      .nav-links a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--color-secondary);
+        transition: width var(--transition-speed) ease;
+      }
+
+      .nav-links a:hover::after, .nav-links a.active::after {
+        width: 100%;
+      }
+
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      
+      .theme-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--color-text);
+        transition: transform var(--transition-speed) ease;
+      }
+      .theme-toggle:hover {
+        transform: scale(1.1) rotate(15deg);
+      }
+      .theme-toggle .fa-sun { display: none; }
+      .theme-toggle .fa-moon { display: block; }
+      body.dark-mode .theme-toggle .fa-sun { display: block; }
+      body.dark-mode .theme-toggle .fa-moon { display: none; }
+
+      .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: var(--color-text);
+      }
+      
+      /* === Hero Section === */
+      #hero {
+        background: linear-gradient(rgba(10, 37, 64, 0.8), rgba(10, 37, 64, 0.8)), url('https://picsum.photos/1920/1080?random=1') no-repeat center center/cover;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 5rem 1.5rem;
+      }
+      .hero-content {
+        max-width: 800px;
+      }
+      .hero-content h1 {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        font-weight: 800;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+      }
+      .hero-content p {
+        font-size: clamp(1rem, 2.5vw, 1.25rem);
+        margin-bottom: 2.5rem;
+        opacity: 0.9;
+      }
+      .hero-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      /* === Tentang Section === */
+      .tentang-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+      }
+      .tentang-text p { margin-bottom: 1rem; }
+      .visi-misi {
+        margin-top: 2rem;
+        padding-left: 1.5rem;
+        border-left: 3px solid var(--color-secondary);
+      }
+      .visi-misi h3 { 
+        color: var(--color-primary);
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      body.dark-mode .visi-misi h3 { color: var(--color-text); }
+      
+      .values-grid {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+      .value-item {
+        text-align: center;
+      }
+      .value-item .icon {
+        font-size: 3rem;
+        color: var(--color-secondary);
+        margin-bottom: 1rem;
+      }
+      .value-item h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      /* === Kegiatan Section === */
+      #kegiatan { background-color: var(--color-surface); }
+      .kegiatan-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .kegiatan-card {
+        background: var(--color-bg);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--color-shadow);
+        transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+        display: flex;
+        flex-direction: column;
+      }
+      .kegiatan-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        body.dark-mode & {
+          box-shadow: 0 10px 25px rgba(255,255,255,0.08);
+        }
+      }
+      .kegiatan-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .kegiatan-card-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .kegiatan-card-content h3 {
+        margin-bottom: 0.5rem;
+      }
+      .kegiatan-card-content p {
+        flex-grow: 1;
+        margin-bottom: 1rem;
+        color: var(--color-text-muted);
+      }
+      .kegiatan-card .btn {
+        align-self: flex-start;
+      }
+      
+      /* === Agenda Section === */
+      .agenda-list {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid var(--color-border);
+        border-radius: var(--border-radius);
+      }
+      .agenda-item {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+      }
+      .agenda-item:not(:last-child) {
+        border-bottom: 1px solid var(--color-border);
+      }
+      .agenda-date {
+        text-align: center;
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+        padding: 0.75rem;
+        border-radius: var(--border-radius);
+        font-weight: 700;
+        min-width: 80px;
+      }
+      .agenda-date .month { font-size: 0.9rem; }
+      .agenda-date .day { font-size: 2rem; line-height: 1; }
+      .agenda-details h3 { font-size: 1.25rem; }
+      .agenda-details p { color: var(--color-text-muted); }
+      .agenda-action { margin-left: auto; }
+      
+      /* === Galeri Section === */
+      #galeri { background-color: var(--color-surface); }
+      .galeri-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+      .galeri-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+      }
+      .galeri-item img {
+        transition: transform var(--transition-speed) ease;
+      }
+      .galeri-item:hover img {
+        transform: scale(1.1);
+      }
+      .galeri-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 37, 64, 0.7);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity var(--transition-speed) ease;
+        font-size: 2rem;
+      }
+      .galeri-item:hover .galeri-overlay {
+        opacity: 1;
+      }
+
+      /* === Berita Section === */
+      .berita-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .berita-card {
+        background: var(--color-surface);
+        border-radius: var(--border-radius);
+        box-shadow: var(--color-shadow);
+        overflow: hidden;
+      }
+      .berita-card img { height: 200px; object-fit: cover; width: 100%; }
+      .berita-content { padding: 1.5rem; }
+      .berita-meta {
+        font-size: 0.9rem;
+        color: var(--color-text-muted);
+        margin-bottom: 0.5rem;
+      }
+      .berita-content h3 a {
+        color: var(--color-text);
+        font-size: 1.2rem;
+      }
+      .berita-content h3 a:hover {
+        color: var(--color-secondary);
+      }
+      .berita-content p { margin: 0.5rem 0 1rem; }
+      .read-more { font-weight: 600; }
+      .berita-footer { text-align: center; margin-top: 3rem; }
+
+      /* === Donasi Section === */
+      #donasi {
+        background: var(--color-primary);
+        color: white;
+        text-align: center;
+      }
+      #donasi .section-title h2 { color: white; }
+      #donasi .section-title p { color: rgba(255, 255, 255, 0.8); }
+      #donasi .btn { background-color: var(--color-secondary); color: var(--color-primary); }
+
+      /* === Form Pendaftaran === */
+      #form-pendaftaran { background-color: var(--color-surface); }
+      .form-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: var(--color-bg);
+        padding: 2.5rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--color-shadow);
+      }
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+      .form-control {
+        width: 100%;
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--color-border);
+        border-radius: var(--border-radius);
+        background: var(--color-surface);
+        color: var(--color-text);
+        font-family: var(--font-family-main);
+        transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+      }
+      .form-control:focus {
+        outline: none;
+        border-color: var(--color-secondary);
+        box-shadow: 0 0 0 3px rgba(255, 196, 0, 0.3);
+      }
+      #form-pendaftaran .btn {
+        width: 100%;
+        font-size: 1.1rem;
+      }
+      .form-message {
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: var(--border-radius);
+        display: none;
+      }
+      .form-message.success { background-color: #d1e7dd; color: #0f5132; }
+      .form-message.error { background-color: #f8d7da; color: #842029; }
+
+      /* === Footer === */
+      .main-footer {
+        background-color: var(--color-primary);
+        color: rgba(255, 255, 255, 0.8);
+        padding-top: 4rem;
+      }
+      .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding-bottom: 3rem;
+      }
+      .footer-col h4 {
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        position: relative;
+        padding-bottom: 0.5rem;
+      }
+      .footer-col h4::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 2px;
+        background-color: var(--color-secondary);
+      }
+      .footer-col ul { list-style: none; }
+      .footer-col ul li { margin-bottom: 0.5rem; }
+      .footer-col ul a { color: rgba(255, 255, 255, 0.8); }
+      .footer-col ul a:hover { color: white; }
+      .social-links a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        transition: background-color var(--transition-speed) ease;
+      }
+      .social-links a:hover { background-color: var(--color-secondary); color: var(--color-primary); }
+      .newsletter-form {
+        display: flex;
+        margin-top: 1rem;
+      }
+      .newsletter-form input {
+        flex-grow: 1;
+        border: none;
+        padding: 0.7rem;
+        border-radius: var(--border-radius) 0 0 var(--border-radius);
+      }
+      .newsletter-form button {
+        border: none;
+        background: var(--color-secondary);
+        color: var(--color-primary);
+        padding: 0 1rem;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0 var(--border-radius) var(--border-radius) 0;
+      }
+      #newsletter-success { font-size: 0.9rem; margin-top: 0.5rem; color: #a3e9a4; display: none; }
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 1.5rem 0;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+      
+      /* === Modal System === */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 2000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        justify-content: center;
+        align-items: center;
+      }
+      .modal.is-open { display: flex; }
+      .modal-content {
+        background: var(--color-surface);
+        padding: 2rem;
+        border-radius: var(--border-radius);
+        width: 90%;
+        max-width: 600px;
+        position: relative;
+        max-height: 90vh;
+        overflow-y: auto;
+      }
+      .modal-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.8rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: var(--color-text-muted);
+      }
+      .modal h3 {
+        margin-bottom: 1rem;
+        color: var(--color-primary);
+      }
+      body.dark-mode .modal h3 { color: var(--color-secondary); }
+      
+      /* === Lightbox System === */
+      .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 3000;
+        inset: 0;
+        background: rgba(0,0,0,0.85);
+        justify-content: center;
+        align-items: center;
+      }
+      .lightbox.is-open { display: flex; }
+      .lightbox-content {
+        position: relative;
+        max-width: 90vw;
+        max-height: 90vh;
+      }
+      .lightbox-content img {
+        max-width: 100%;
+        max-height: 90vh;
+        object-fit: contain;
+      }
+      .lightbox-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        transition: background-color var(--transition-speed) ease;
+      }
+      .lightbox-btn:hover { background: rgba(0,0,0,0.8); }
+      .lightbox-close { top: 1rem; right: 1rem; transform: none; }
+      .lightbox-prev { left: 1rem; }
+      .lightbox-next { right: 1rem; }
+
+      /* === Print Styles === */
+      @media print {
+        body {
+          background-color: white;
+          color: black;
+          font-size: 12pt;
+        }
+        .main-header, .main-footer, #hero, #donasi, #form-pendaftaran, .btn, .menu-toggle, .theme-toggle {
+          display: none !important;
+        }
+        section {
+          padding: 2rem 0;
+        }
+        .container {
+          max-width: 100%;
+          padding: 0;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        .section-title h2::after {
+          display: none;
+        }
+        .kegiatan-grid, .berita-grid, .galeri-grid {
+          grid-template-columns: 1fr;
+        }
+        .kegiatan-card, .berita-card {
+          box-shadow: none;
+          border: 1px solid #ccc;
+        }
+        img {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+      }
+
+      /* === Responsive Media Queries === */
+      @media (max-width: 992px) {
+        .tentang-content { grid-template-columns: 1fr; }
+        .tentang-img { order: -1; margin-bottom: 2rem; text-align: center; }
+      }
+
+      @media (max-width: 768px) {
+        html { font-size: 15px; }
+        .nav-links {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          width: 280px;
+          height: 100vh;
+          background: var(--color-surface);
+          flex-direction: column;
+          padding: 6rem 2rem 2rem;
+          gap: 2rem;
+          transition: right var(--transition-speed) ease;
+          box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        }
+        .nav-links.is-open {
+          right: 0;
+        }
+        .menu-toggle {
+          display: block;
+          z-index: 1001; /* Di atas navbar overlay */
+        }
+        .agenda-item { flex-direction: column; align-items: flex-start; }
+        .agenda-action { margin-left: 0; margin-top: 1rem; }
+      }
+    </style>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Lompat ke Konten Utama</a>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:var(--color-secondary);stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ffd700;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path fill="var(--color-primary)" d="M50,5 A45,45 0 1,1 50,95 A45,45 0 0,1 50,5 M50,15 A35,35 0 1,0 50,85 A35,35 0 0,0 50,15"/>
+                    <text x="50" y="62" font-family="Poppins, sans-serif" font-size="40" font-weight="800" fill="url(#logoGradient)" text-anchor="middle">G</text>
+                </svg>
+                <span>Karang Taruna <b>GEMA</b></span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                    <li><a href="#kegiatan" class="nav-link">Kegiatan</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li><a href="#berita" class="nav-link">Berita</a></li>
+                    <li><a href="#donasi" class="nav-link">Donasi</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <button class="theme-toggle" id="theme-toggle" title="Ganti Tema">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Buka Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <section id="hero">
+            <div class="hero-content reveal">
+                <h1>Muda, Berkarya, Menginspirasi</h1>
+                <p>Karang Taruna GEMA hadir sebagai wadah bagi generasi remaja untuk menyalurkan energi positif, mengembangkan potensi, dan memberikan dampak nyata bagi lingkungan sekitar.</p>
+                <div class="hero-buttons">
+                    <a href="#form-pendaftaran" class="btn btn-primary">Gabung Sekarang</a>
+                    <a href="#kegiatan" class="btn btn-secondary">Lihat Kegiatan</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Tentang GEMA</h2>
+                    <p>Mengenal lebih dekat siapa kami, apa yang kami perjuangkan, dan nilai-nilai yang kami junjung tinggi.</p>
+                </div>
+                <div class="tentang-content reveal">
+                    <div class="tentang-text">
+                        <p><strong>Karang Taruna GEMA (Generasi Remaja)</strong> adalah organisasi sosial kepemudaan yang berkomitmen untuk menjadi motor penggerak kegiatan positif di lingkungan kami. Berdiri sejak tahun 2020, kami berupaya memberdayakan pemuda melalui berbagai program yang inovatif dan relevan.</p>
+                        <div class="visi-misi">
+                            <h3>Visi</h3>
+                            <p>"Menjadi organisasi pemuda yang unggul, mandiri, dan berkarakter, serta menjadi teladan dalam pembangunan sosial kemasyarakatan."</p>
+                            <br>
+                            <h3>Misi</h3>
+                            <ul>
+                                <li>Meningkatkan kualitas sumber daya pemuda melalui pendidikan dan pelatihan.</li>
+                                <li>Menumbuhkan jiwa kewirausahaan dan kemandirian ekonomi.</li>
+                                <li>Menguatkan kepedulian sosial dan semangat gotong royong.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tentang-img">
+                        <img src="img/logo.jpg" alt="Tim Karang Taruna GEMA" loading="lazy" decoding="async" style="border-radius: var(--border-radius);">
+                    </div>
+                </div>
+                <div class="values-grid reveal">
+                    <div class="value-item">
+                        <div class="icon"><i class="fas fa-users"></i></div>
+                        <h4>Kolaboratif</h4>
+                        <p>Kami percaya kekuatan terbesar datang dari kerja sama dan semangat kebersamaan.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Inovatif</h4>
+                        <p>Selalu mencari cara baru dan kreatif untuk menyelesaikan masalah dan menciptakan peluang.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <h4>Peduli</h4>
+                        <p>Menempatkan kepedulian terhadap sesama dan lingkungan sebagai inti dari setiap tindakan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kegiatan">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Program & Kegiatan</h2>
+                    <p>Inilah beberapa program unggulan yang kami jalankan untuk memberikan manfaat nyata.</p>
+                </div>
+                <div class="kegiatan-grid">
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.1s;">
+                        <img src="https://picsum.photos/400/300?random=3" alt="Bakti Sosial" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>Bakti Sosial Rutin</h3>
+                            <p>Kegiatan berbagi dengan masyarakat kurang mampu, panti asuhan, dan kerja bakti membersihkan lingkungan.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-1">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.2s;">
+                        <img src="https://picsum.photos/400/300?random=4" alt="Pelatihan Digital" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>Pelatihan Skill Digital</h3>
+                            <p>Workshop gratis untuk pemuda mengenai desain grafis, digital marketing, dan dasar-dasar coding.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-2">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.3s;">
+                        <img src="https://picsum.photos/400/300?random=5" alt="Peduli Lingkungan" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>Gerakan Peduli Lingkungan</h3>
+                            <p>Aksi penanaman pohon, pengelolaan bank sampah, dan kampanye pengurangan sampah plastik.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-3">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.1s;">
+                        <img src="https://picsum.photos/400/300?random=6" alt="Turnamen Olahraga" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>GEMA Sports</h3>
+                            <p>Mengadakan kompetisi olahraga seperti futsal, voli, dan e-sports untuk menjalin sportivitas.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-4">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.2s;">
+                        <img src="https://picsum.photos/400/300?random=7" alt="Pentas Seni" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>Panggung Seni & Budaya</h3>
+                            <p>Memberikan ruang bagi pemuda untuk menampilkan bakat di bidang musik, tari, dan teater.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-5">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="kegiatan-card reveal" style="transition-delay: 0.3s;">
+                        <img src="https://picsum.photos/400/300?random=8" alt="Pasar Pemuda" loading="lazy" decoding="async">
+                        <div class="kegiatan-card-content">
+                            <h3>Wirausaha Muda (GEMApreneur)</h3>
+                            <p>Bazar produk-produk UMKM pemuda dan pelatihan kewirausahaan untuk mendorong kemandirian.</p>
+                            <button class="btn btn-primary open-modal-btn" data-modal-id="modal-6">Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agenda">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Agenda Mendatang</h2>
+                    <p>Jangan lewatkan acara-acara seru kami berikutnya. Tandai kalender Anda!</p>
+                </div>
+                <div class="agenda-list reveal">
+                    <div class="agenda-item">
+                        <div class="agenda-date">
+                            <span class="month">NOV</span>
+                            <span class="day">25</span>
+                        </div>
+                        <div class="agenda-details">
+                            <h3>Webinar "Cerdas Finansial Sejak Muda"</h3>
+                            <p><i class="fas fa-clock"></i> 19:00 WIB | <i class="fas fa-map-marker-alt"></i> Online (Zoom)</p>
+                        </div>
+                        <div class="agenda-action">
+                            <a href="#" class="btn btn-primary">Daftar</a>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="agenda-date">
+                            <span class="month">DES</span>
+                            <span class="day">15</span>
+                        </div>
+                        <div class="agenda-details">
+                            <h3>Bakti Sosial & Donor Darah Akhir Tahun</h3>
+                            <p><i class="fas fa-clock"></i> 09:00 - 15:00 WIB | <i class="fas fa-map-marker-alt"></i> Balai Warga RW 05</p>
+                        </div>
+                        <div class="agenda-action">
+                             <a href="#" class="btn btn-primary">Info Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="galeri">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Galeri Kegiatan</h2>
+                    <p>Momen-momen tak terlupakan yang terekam dalam lensa kami.</p>
+                </div>
+                <div class="galeri-grid reveal">
+                    <div class="galeri-item">
+                        <img src="img/1.jpg" alt="Deskripsi gambar 1" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/2.jpg" alt="Deskripsi gambar 2" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/3.jpg" alt="Deskripsi gambar 3" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/4.jpg" alt="Deskripsi gambar 4" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/5.jpg" alt="Deskripsi gambar 5" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/6.jpg" alt="Deskripsi gambar 6" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/7.jpg" alt="Deskripsi gambar 6" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/8.jpg" alt="Deskripsi gambar 6" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="galeri-item">
+                        <img src="img/9.jpg" alt="Deskripsi gambar 6" loading="lazy" decoding="async">
+                        <div class="galeri-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="berita">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Berita & Pengumuman</h2>
+                    <p>Informasi terbaru seputar kegiatan, prestasi, dan pengumuman penting dari GEMA.</p>
+                </div>
+                <div class="berita-grid reveal">
+                    <article class="berita-card">
+                        <a href="#"><img src="https://picsum.photos/400/300?random=16" alt="Gambar artikel 1" loading="lazy" decoding="async"></a>
+                        <div class="berita-content">
+                            <p class="berita-meta">15 OKT 2025 | OLEH: HUMAS GEMA</p>
+                            <h3><a href="#">Sukses Gelar Turnamen Futsal, GEMA Cup Jaring Bibit Atlet Muda</a></h3>
+                            <p>Antusiasme tinggi warnai perhelatan GEMA Futsal Cup 2025 yang diikuti oleh 16 tim dari berbagai RT...</p>
+                            <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </article>
+                     <article class="berita-card">
+                        <a href="#"><img src="https://picsum.photos/400/300?random=17" alt="Gambar artikel 2" loading="lazy" decoding="async"></a>
+                        <div class="berita-content">
+                            <p class="berita-meta">02 OKT 2025 | OLEH: HUMAS GEMA</p>
+                            <h3><a href="#">Aksi Tanam 1000 Pohon di Hari Lingkungan Hidup Sedunia</a></h3>
+                            <p>Sebagai bentuk kepedulian terhadap lingkungan, Karang Taruna GEMA melakukan aksi nyata dengan menanam...</p>
+                            <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </article>
+                     <article class="berita-card">
+                        <a href="#"><img src="https://picsum.photos/400/300?random=18" alt="Gambar artikel 3" loading="lazy" decoding="async"></a>
+                        <div class="berita-content">
+                            <p class="berita-meta">28 SEP 2025 | OLEH: HUMAS GEMA</p>
+                            <h3><a href="#">Pengumuman: Pendaftaran Anggota Baru Angkatan V Telah Dibuka!</a></h3>
+                            <p>Bagi kamu pemuda-pemudi yang ingin bergabung dan berkontribusi, inilah saatnya! Pendaftaran dibuka hingga...</p>
+                            <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="berita-footer reveal">
+                    <a href="#" class="btn btn-primary">Lihat Semua Berita</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="donasi">
+            <div class="container reveal">
+                <div class="section-title">
+                    <h2>Dukung Kami</h2>
+                    <p>Setiap dukungan Anda sangat berarti untuk keberlangsungan program-program positif kami. Mari berkolaborasi untuk kebaikan bersama.</p>
+                </div>
+                <button class="btn" id="donasi-btn">Donasi Sekarang</button>
+            </div>
+        </section>
+        
+        <section id="form-pendaftaran">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Gabung Bersama GEMA</h2>
+                    <p>Isi formulir di bawah ini untuk menjadi bagian dari keluarga besar Karang Taruna GEMA. Kami menunggumu!</p>
+                </div>
+                <div class="form-container reveal">
+                    <form id="pendaftaran-form" novalidate>
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" class="form-control" required placeholder="Contoh: Budi Santoso">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="contoh@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telepon">Nomor HP / WhatsApp</label>
+                            <input type="tel" id="telepon" name="telepon" class="form-control" required placeholder="081234567890">
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat Singkat</label>
+                            <input type="text" id="alamat" name="alamat" class="form-control" required placeholder="Contoh: Jl. Merdeka No. 1, RT 01/RW 02">
+                        </div>
+                        <div class="form-group">
+                            <label for="minat">Bidang yang Diminati</label>
+                            <select id="minat" name="minat" class="form-control" required>
+                                <option value="" disabled selected>-- Pilih Bidang --</option>
+                                <option value="olahraga">Olahraga</option>
+                                <option value="seni-budaya">Seni & Budaya</option>
+                                <option value="sosial-lingkungan">Sosial & Lingkungan</option>
+                                <option value="wirausaha">Kewirausahaan</option>
+                                <option value="pendidikan">Pendidikan & Pelatihan</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pendaftaran</button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kontak" class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Karang Taruna GEMA</h4>
+                    <p>Wadah aspirasi, kreasi, dan kontribusi pemuda untuk kemajuan bersama.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Hubungi Kami</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt fa-fw"></i> Jl. Pemuda Berkarya No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone fa-fw"></i> <a href="tel:+6281234567890">0812-3456-7890</a></li>
+                        <li><i class="fab fa-whatsapp fa-fw"></i> <a href="https://wa.me/6281234567890" target="_blank">Chat via WhatsApp</a></li>
+                        <li><i class="fas fa-envelope fa-fw"></i> <a href="mailto:sekretariat.ktgema@email.com">sekretariat.ktgema@email.com</a></li>
+                        <li><i class="fas fa-clock fa-fw"></i> Jam Operasional: 16:00 - 21:00 WIB</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#kegiatan">Program Kerja</a></li>
+                        <li><a href="#berita">Berita Terbaru</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <h4 style="margin-top: 1.5rem;">Dapatkan Info Terbaru</h4>
+                    <form id="newsletter-form">
+                        <div class="newsletter-form">
+                            <input type="email" id="newsletter-email" placeholder="Alamat email Anda" required>
+                            <button type="submit">Daftar</button>
+                        </div>
+                        <p id="newsletter-success">Terima kasih telah berlangganan!</p>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Karang Taruna GEMA (Generasi Remaja). All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <div id="modal-1" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-1">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Tutup">&times;</button>
+            <h3 id="modal-title-1">Detail Program: Bakti Sosial Rutin</h3>
+            <p>Program "GEMA Peduli" ini merupakan pilar utama kegiatan kami. Setiap 3 bulan sekali, kami mengadakan aksi sosial yang meliputi:</p>
+            <ul>
+                <li>Pembagian sembako untuk keluarga pra-sejahtera.</li>
+                <li>Kunjungan dan donasi ke panti asuhan atau panti jompo.</li>
+                <li>Kerja bakti massal untuk membersihkan fasilitas umum.</li>
+                <li>Penggalangan dana untuk korban bencana alam.</li>
+            </ul>
+            <p>Kami membuka pintu bagi siapa saja yang ingin berpartisipasi sebagai relawan atau donatur.</p>
+        </div>
+    </div>
+    <div id="modal-donasi" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-donasi">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Tutup">&times;</button>
+            <h3 id="modal-title-donasi">Formulir Donasi</h3>
+            <p>Dukungan Anda membantu kami terus bergerak. Salurkan donasi Anda melalui rekening berikut:</p>
+            <p><strong>Bank BCA:</strong> 123-456-7890<br>a.n. Karang Taruna GEMA</p>
+            <p><strong>Bank Mandiri:</strong> 098-765-4321<br>a.n. Karang Taruna GEMA</p>
+            <p>Mohon konfirmasi setelah melakukan transfer ke nomor WhatsApp Bendahara kami di 0898-7654-3210. Terima kasih atas kebaikan Anda!</p>
+        </div>
+    </div>
+    
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Tampilan besar gambar galeri">
+        </div>
+        <button id="lightbox-close" class="lightbox-btn lightbox-close" aria-label="Tutup">&times;</button>
+        <button id="lightbox-prev" class="lightbox-btn lightbox-prev" aria-label="Gambar sebelumnya">&#10094;</button>
+        <button id="lightbox-next" class="lightbox-btn lightbox-next" aria-label="Gambar berikutnya">&#10095;</button>
+    </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+        // ===================================
+        // A. Pengelola Tema (Dark/Light Mode)
+        // ===================================
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme) {
+            document.body.classList.add(currentTheme);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            let theme = 'light-mode';
+            if (document.body.classList.contains('dark-mode')) {
+                theme = 'dark-mode';
+            }
+            localStorage.setItem('theme', theme);
+        });
+
+        // ===================================
+        // B. Navigasi Mobile (Hamburger Menu)
+        // ===================================
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const navLinkItems = document.querySelectorAll('.nav-link');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('is-open');
+            // Ganti ikon hamburger/close
+            const icon = menuToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Tutup menu saat link di klik
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('is-open')) {
+                    navLinks.classList.remove('is-open');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
+
+        // ===================================
+        // C. Sistem Modal (Pop-up)
+        // ===================================
+        const openModalButtons = document.querySelectorAll('.open-modal-btn');
+        const donasiBtn = document.getElementById('donasi-btn');
+        const modals = document.querySelectorAll('.modal');
+
+        const openModal = (modal) => {
+            if (modal) {
+                modal.classList.add('is-open');
+                document.body.style.overflow = 'hidden'; // Mencegah scroll di background
+            }
+        }
+        
+        const closeModal = (modal) => {
+            if (modal) {
+                modal.classList.remove('is-open');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Event listener untuk tombol buka modal kegiatan
+        openModalButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const modalId = button.dataset.modalId;
+                const modal = document.getElementById(modalId);
+                // Simulasi isi modal jika belum ada
+                if (!modal) {
+                    alert(`Modal dengan ID "${modalId}" tidak ditemukan. Ini adalah contoh.`);
+                    return;
+                }
+                openModal(modal);
+            });
+        });
+        
+        // Event listener untuk tombol donasi
+        donasiBtn.addEventListener('click', () => {
+            const modalDonasi = document.getElementById('modal-donasi');
+            openModal(modalDonasi);
+        });
+
+        // Event listener untuk tombol close atau klik di luar modal
+        modals.forEach(modal => {
+            const closeButton = modal.querySelector('.modal-close');
+            if (closeButton) {
+                closeButton.addEventListener('click', () => closeModal(modal));
+            }
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal(modal);
+                }
+            });
+        });
+
+        // ===================================
+        // D. Sistem Lightbox Galeri
+        // ===================================
+        const galleryItems = document.querySelectorAll('.galeri-item');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+        const lightboxPrev = document.getElementById('lightbox-prev');
+        const lightboxNext = document.getElementById('lightbox-next');
+        let currentIndex = 0;
+        const images = Array.from(galleryItems).map(item => item.querySelector('img').src);
+
+        const showImage = (index) => {
+            lightboxImg.src = images[index];
+            currentIndex = index;
+        };
+
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                lightbox.classList.add('is-open');
+                showImage(index);
+            });
+        });
+
+        lightboxClose.addEventListener('click', () => lightbox.classList.remove('is-open'));
+        lightbox.addEventListener('click', (e) => {
+            if(e.target === lightbox) lightbox.classList.remove('is-open');
+        });
+
+        lightboxPrev.addEventListener('click', () => {
+            const newIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(newIndex);
+        });
+
+        lightboxNext.addEventListener('click', () => {
+            const newIndex = (currentIndex + 1) % images.length;
+            showImage(newIndex);
+        });
+        
+        // Navigasi keyboard untuk modal dan lightbox
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                modals.forEach(closeModal);
+                if (lightbox.classList.contains('is-open')) {
+                   lightbox.classList.remove('is-open');
+                }
+            }
+            if(lightbox.classList.contains('is-open')) {
+                if (e.key === 'ArrowLeft') lightboxPrev.click();
+                if (e.key === 'ArrowRight') lightboxNext.click();
+            }
+        });
+
+        // ===================================
+        // E. Validasi Form Pendaftaran
+        // ===================================
+        const pendaftaranForm = document.getElementById('pendaftaran-form');
+        const formMessage = document.getElementById('form-message');
+
+        pendaftaranForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            let isValid = pendaftaranForm.checkValidity();
+            if (isValid) {
+                // Simulasi pengiriman form
+                formMessage.textContent = 'Terima kasih! Pendaftaran Anda telah kami terima. Tim kami akan segera menghubungi Anda.';
+                formMessage.className = 'form-message success';
+                formMessage.style.display = 'block';
+                pendaftaranForm.reset();
+            } else {
+                formMessage.textContent = 'Mohon periksa kembali, ada data yang belum terisi dengan benar.';
+                formMessage.className = 'form-message error';
+                formMessage.style.display = 'block';
+            }
+        });
+
+        // ===================================
+        // F. Animasi Scroll Reveal
+        // ===================================
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        revealElements.forEach(el => revealObserver.observe(el));
+        
+        // ===================================
+        // G. Newsletter Subscription (Simulasi)
+        // ===================================
+        const newsletterForm = document.getElementById('newsletter-form');
+        const newsletterEmail = document.getElementById('newsletter-email');
+        const newsletterSuccess = document.getElementById('newsletter-success');
+
+        newsletterForm.addEventListener('submit', e => {
+            e.preventDefault();
+            if(newsletterEmail.value) {
+                localStorage.setItem('newsletter_subscribed', newsletterEmail.value);
+                newsletterSuccess.style.display = 'block';
+                newsletterEmail.value = '';
+                setTimeout(() => { newsletterSuccess.style.display = 'none'; }, 3000);
+            }
+        });
+      });
+    </script>
+
+</body>
+</html>
